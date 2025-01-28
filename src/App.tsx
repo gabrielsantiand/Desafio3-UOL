@@ -1,12 +1,10 @@
-import './App.css'
+import { StrictMode } from "react";
+import AppRoutes from "./AppRoutes";
 
-function App() {
+const App: React.FC = () => (
+  <StrictMode>
+    <AppRoutes />
+  </StrictMode>
+);
 
-  return (
-    <>
-      <h1>Audio</h1>
-    </>
-  )
-}
-
-export default App
+export default App;
