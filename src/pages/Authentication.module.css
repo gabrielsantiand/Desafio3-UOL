@@ -11,7 +11,7 @@
   
     .description {
       font-size: 16px;
-      margin-bottom: 32px;
+      margin-bottom: 34px;
     }
   }
   
@@ -28,23 +28,23 @@
       ), 
       url('/src/assets/principal.png') center/cover no-repeat;
     color: #ffffff;
-    padding: 24px;
+    padding: 25px;
     gap: 16px;
     box-sizing: border-box;
     text-align: center;
   }
   
   .heading {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     margin-top: 50px;
   }
   
   .description {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 24px;
-    margin-top: 15px;
+    margin-top: 17px;
   }
   
   .content {
@@ -55,13 +55,13 @@
   .formContainer {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    margin-bottom: 18px;
+    gap: 14px;
+    margin-bottom: 20px;
   }
   
   .inputField {
     width: 100%;
-    height: 48px;
+    height: 50px;
     border-radius: 8px;
     border: 1px solid gray;
     padding: 0 12px;
@@ -74,13 +74,13 @@
     font-size: 12px;
     color: white;
     cursor: pointer;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
   }
   
   .primaryButton {
     width: 100%;
-    height: 48px;
-    border-radius: 8px;
+    height: 50px;
+    border-radius: 6px;
     background-color: #0ACF83;
     font-size: 16px;
     font-weight: bold;
@@ -94,22 +94,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    font-size: 14px;
+    gap: 7px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
     background: none;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 12px;
     padding-left: 100px;
   }
   
   
   .footerText {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   
   .signUp {
