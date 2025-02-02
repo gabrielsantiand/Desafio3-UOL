@@ -1,0 +1,168 @@
+.pageContainer {
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    overflow-y: auto;
+  }
+  
+  .navbarWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logoText {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .categoryWrapper {
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+  }
+  
+  .categoryTabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .categoryTab {
+    border: none;
+    background-color: #f6f6f6;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #7f7f7f;
+  }
+  
+  .activeTab {
+    background-color: #0acf83;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  .productHighlight {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .productImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+  }
+  
+  .carouselSection {
+    margin-top: 30px;
+  }
+  
+  .carouselCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .shopLink {
+    color: #0acf83;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .shopLink:hover {
+    text-decoration: underline;
+  }
+  
+  .react-multi-carousel-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .react-multi-carousel-arrow svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #000; /* Cor padrão da seta */
+    stroke-width: 2;
+  }
+  
+  .react-multi-carousel-arrow:hover svg {
+    stroke: #0acf83; /* Cor da seta no hover */
+  }
+  
+  .react-multi-carousel-arrow.left {
+    left: -25px; /* Posição da seta esquerda */
+  }
+  
+  .react-multi-carousel-arrow.right {
+    right: -25px; /* Posição da seta direita */
+  }  
+
+  .carouselHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .carouselTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .seeAllButton {
+    font-size: 14px;
+    color: gray;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
